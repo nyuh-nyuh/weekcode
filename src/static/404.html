@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" type="image/x-icon" href="/images/favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Сторінку не знайдено</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+        .header {
+            background-color: #333;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .center {
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 72px;
+            margin: 0;
+        }
+        p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .back-link {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .back-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+			<a href="/" class="header_left"><img src="https://img.icons8.com/m_sharp/200/FFFFFF/home.png" height="24"></a>
+            <a href="/about">Про сайт</a>
+            <a href="/passgen">Генератор паролів</a>
+            <a href="/howto">Як захиститися від кібератак</a>
+            <a href="/recommendations">Рекомендації</a>
+        </nav>
+    </header>
+    <div class="center">
+        <h1>404</h1>
+        <p>Ой! Здається сторінка не знайдена.</p>
+        <p>Перевірте URL адресу та спробуйте ще раз.</p>
+        <div class="back-link">
+            <p><a href="/">Повернутись на головну</a></p>
+        </div>
+    </div>
+</body>
+</html>
